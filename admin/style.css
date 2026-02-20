@@ -1,32 +1,29 @@
 /* ============================================
-   CRAZIANS ADMIN PANEL - STYLES
+   TORIKO ADMIN PANEL - STYLES
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap');
 
 :root {
-    /* Crazians Palette */
-    --bg: #fff6b4;
-    /* Pale Yellow */
-    --bg-header: #b3ffe8;
-    /* Mint */
-    --surface: #ffffff;
-    --surface-2: #fcfcfc;
-    --border: rgba(2, 157, 147, 0.15);
-    --gold: #029d93;
-    /* Using Teal for primary accent in Admin */
-    --accent-pink: #a60a9b;
-    --gold-dim: rgba(2, 157, 147, 0.1);
-    --red: #c0392b;
-    --red-dim: rgba(192, 57, 43, 0.1);
-    --green: #27ae60;
-    --text: #020202;
-    --text-muted: #4a4a4a;
-    --font: 'Grandstander', sans-serif;
-    --font-body: 'Open Sans', sans-serif;
-    --radius: 16px;
+    /* Toriko Dark Palette */
+    --bg: #1a1a1a;
+    --bg-header: #262626;
+    --surface: #2d2d2d;
+    --surface-2: #333333;
+    --border: rgba(255, 255, 255, 0.1);
+    --gold: #f39c12;
+    --accent-pink: #e74c3c;
+    --gold-dim: rgba(243, 156, 18, 0.1);
+    --red: #e74c3c;
+    --red-dim: rgba(231, 76, 60, 0.1);
+    --green: #2ecc71;
+    --text: #ffffff;
+    --text-muted: #aaaaaa;
+    --font: 'Outfit', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    --radius: 12px;
     --radius-sm: 8px;
-    --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -122,7 +119,8 @@ body {
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     padding: 0.75rem 1rem;
-    color: var(--text);
+    color: #ffffff !important;
+    /* Force white text for readability */
     font-family: var(--font-body);
     font-size: 1rem;
     transition: var(--transition);
