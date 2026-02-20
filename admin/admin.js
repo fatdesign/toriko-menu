@@ -211,7 +211,7 @@ function toggleCategoryVisibility(catIdx) {
 
 function renderItemRow(item, catIdx, itemIdx) {
     const name = item.name['de'] || 'N/A';
-    const desc = item.description ? item.description['de'] : '';
+    const desc = item.desc ? item.desc['de'] : '';
     const isSoldOut = item.isSoldOut === true;
 
     return `
@@ -243,10 +243,10 @@ function openItemModal(catIdx, itemIdx = null) {
         document.getElementById('item-name-en').value = item.name['en'] || '';
         document.getElementById('item-name-tr').value = item.name['tr'] || '';
         document.getElementById('item-name-es').value = item.name['es'] || '';
-        document.getElementById('item-desc-de').value = item.description ? (item.description['de'] || '') : '';
-        document.getElementById('item-desc-en').value = item.description ? (item.description['en'] || '') : '';
-        document.getElementById('item-desc-tr').value = item.description ? (item.description['tr'] || '') : '';
-        document.getElementById('item-desc-es').value = item.description ? (item.description['es'] || '') : '';
+        document.getElementById('item-desc-de').value = item.desc ? (item.desc['de'] || '') : '';
+        document.getElementById('item-desc-en').value = item.desc ? (item.desc['en'] || '') : '';
+        document.getElementById('item-desc-tr').value = item.desc ? (item.desc['tr'] || '') : '';
+        document.getElementById('item-desc-es').value = item.desc ? (item.desc['es'] || '') : '';
         document.getElementById('item-price').value = item.price;
         document.getElementById('item-available').checked = item.isSoldOut === true;
     } else {
@@ -275,7 +275,7 @@ itemForm.addEventListener('submit', (e) => {
         },
         price: document.getElementById('item-price').value.trim(),
         isSoldOut: document.getElementById('item-available').checked,
-        description: {
+        desc: {
             de: document.getElementById('item-desc-de').value.trim(),
             en: document.getElementById('item-desc-en').value.trim(),
             tr: document.getElementById('item-desc-tr').value.trim(),
