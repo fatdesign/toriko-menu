@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-hydrate="restaurantName">Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="screen active">
+        <div class="login-card">
+            <div class="login-logo">
+                <span class="gold" data-hydrate="restaurantName">Crazians</span> ADMIN
+            </div>
+            <p class="login-subtitle">Speisekarte verwalten</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="password">Passwort</label>
+                    <input type="password" id="password" placeholder="••••••••" autocomplete="current-password"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Einloggen</button>
+                <p id="login-error" class="error-msg hidden">Falsches Passwort. Bitte erneut versuchen.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div id="dashboard-screen" class="screen">
+        <header class="admin-header">
+            <div class="admin-brand"><span class="gold" data-hydrate="restaurantName">Restaurant</span> ADMIN</div>
+            <div class="header-actions">
+                <span id="save-status" class="save-status"></span>
+                <button id="save-btn" class="btn btn-primary">💾 Speichern</button>
+                <button id="logout-btn" class="btn btn-ghost">Abmelden</button>
+            </div>
+        </header>
+
+        <main class="admin-main">
+            <div class="admin-toolbar">
+                <h1 class="page-title">Speisekarte bearbeiten</h1>
+                <button id="add-category-btn" class="btn btn-secondary">+ Kategorie hinzufügen</button>
+            </div>
+
+            <div id="categories-container">
+                <!-- Categories rendered by JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal: Add/Edit Item -->
+    <div id="item-modal" class="modal-overlay hidden">
+        <div class="modal-card modal-large">
+            <h2 class="modal-title" id="modal-title">Gericht hinzufügen</h2>
+            <form id="item-form">
+                <input type="hidden" id="item-cat-id">
+                <input type="hidden" id="item-index">
+
+                <div class="modal-grid">
+                    <div class="modal-col">
+                        <div class="lang-tag">DEUTSCH</div>
+                        <div class="form-group">
+                            <label>Name (DE)</label>
+                            <input type="text" id="item-name-de" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Beschreibung (DE)</label>
+                            <textarea id="item-desc-de" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-col">
+                        <div class="lang-tag">ENGLISH</div>
+                        <div class="form-group">
+                            <label>Name (EN)</label>
+                            <input type="text" id="item-name-en">
+                        </div>
+                        <div class="form-group">
+                            <label>Beschreibung (EN)</label>
+                            <textarea id="item-desc-en" rows="2"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-grid">
+                    <div class="modal-col">
+                        <div class="lang-tag">TÜRKÇE</div>
+                        <div class="form-group">
+                            <label>Name (TR)</label>
+                            <input type="text" id="item-name-tr">
+                        </div>
+                        <div class="form-group">
+                            <label>Beschreibung (TR)</label>
+                            <textarea id="item-desc-tr" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-col">
+                        <div class="lang-tag">ESPAÑOL</div>
+                        <div class="form-group">
+                            <label>Name (ES)</label>
+                            <input type="text" id="item-name-es">
+                        </div>
+                        <div class="form-group">
+                            <label>Beschreibung (ES)</label>
+                            <textarea id="item-desc-es" rows="2"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="item-price">Preis (€)</label>
+                    <input type="text" id="item-price" placeholder="z.B. 14.90" required>
+                </div>
+
+                <div class="form-group flex-between"
+                    style="background: var(--surface-2); padding: 1rem; border-radius: var(--radius-sm); margin-bottom: 2rem;">
+                    <div>
+                        <label style="margin-bottom: 0;">AUSVERKAUFT (AUS)</label>
+                        <small style="color: var(--text-muted); display: block; margin-top: 4px;">Gericht wird nicht auf
+                            der Speisekarte angezeigt</small>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="item-available">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" id="modal-cancel" class="btn btn-ghost">Abbrechen</button>
+                    <button type="submit" class="btn btn-primary">Speichern</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Add Category -->
+    <div id="cat-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <h2 class="modal-title">Kategorie hinzufügen</h2>
+            <form id="cat-form">
+                <div class="form-group">
+                    <label>Kategoriename (DE)</label>
+                    <input type="text" id="cat-name-de" required>
+                </div>
+                <div class="form-group">
+                    <label>Kategoriename (EN)</label>
+                    <input type="text" id="cat-name-en">
+                </div>
+                <div class="form-group">
+                    <label>Kategoriename (TR)</label>
+                    <input type="text" id="cat-name-tr">
+                </div>
+                <div class="form-group">
+                    <label>Kategoriename (ES)</label>
+                    <input type="text" id="cat-name-es">
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="cat-modal-cancel" class="btn btn-ghost">Abbrechen</button>
+                    <button type="submit" class="btn btn-primary">Hinzufügen</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../settings.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>
