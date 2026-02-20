@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             let itemsHtml = '';
             activeItems.forEach((item, itemIdx) => {
                 const itemName = item.name[lang] || item.name['de'];
-                const itemDesc = item.desc ? (item.desc[lang] || item.desc['de']) : '';
+                const itemDesc = item.description ? (item.description[lang] || item.description['de']) : '';
 
                 itemsHtml += `
                     <div class="menu-item visible" style="animation-delay: ${(itemIdx * 0.1)}s">
