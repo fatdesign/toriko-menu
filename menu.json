@@ -47,7 +47,7 @@
             "es": ""
           },
           "price": "8.00",
-          "isSoldOut": true,
+          "isSoldOut": false,
           "desc": {
             "de": "3 Stk. Hühnerspieße mit hausgemachter Erdnusssauce.",
             "en": "3 pcs. chicken skewers with homemade peanut sauce.",
