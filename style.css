@@ -111,19 +111,11 @@ ul {
 }
 
 @media (max-width: 768px) {
-    .mobile-only {
-        display: flex !important;
-    }
-
-    .desktop-only {
-        display: none !important;
-    }
-
     .header-content {
         flex-direction: column;
         align-items: center;
-        gap: 8px;
-        padding: 8px var(--space-s);
+        gap: 5px;
+        padding: 10px var(--space-s);
         position: relative;
     }
 
@@ -138,35 +130,14 @@ ul {
     .header-right {
         width: 100%;
         justify-content: center;
+        margin-top: 2px;
     }
-
-    #mobile-menu-toggle {
-        position: absolute;
-        top: 8px;
-        right: 15px;
-        display: flex !important;
-    }
-}
-
-/* Mobile Menu Toggle Button */
-#mobile-menu-toggle {
-    background: transparent;
-    border: 1px solid var(--accent-teal);
-    border-radius: 30px;
-    padding: 10px;
-    display: none;
-    /* Hidden by default */
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: var(--transition-smooth);
-    z-index: 1001;
 }
 
 @media (max-width: 768px) {
-    #mobile-menu-toggle {
-        display: flex;
-        /* Shown only on mobile */
+    .header-right {
+        width: 100%;
+        justify-content: center;
     }
 }
 
@@ -240,93 +211,7 @@ ul {
     letter-spacing: 1px;
 }
 
-.hamburger {
-    width: 20px;
-    height: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.hamburger span {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: var(--accent-teal);
-    transition: var(--transition-smooth);
-}
-
-/* Mobile Menu Overlay */
-#mobile-menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2000;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-100%);
-    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    background: rgba(26, 26, 26, 0.98);
-}
-
-#mobile-menu-overlay.active {
-    transform: translateY(0);
-}
-
-#close-mobile-menu {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    background: transparent;
-    border: none;
-    color: var(--accent-gold);
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.mobile-nav-content {
-    text-align: center;
-}
-
-.mobile-brand {
-    font-size: 2rem;
-    font-family: var(--font-ui);
-    font-weight: 900;
-    margin-bottom: 3rem;
-    letter-spacing: 3px;
-}
-
-#mobile-category-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    padding: 0 10%;
-}
-
-#mobile-category-list a {
-    font-family: var(--font-heading);
-    font-size: 1.1rem;
-    color: var(--text-primary);
-    transition: var(--transition-smooth);
-    background: rgba(255, 255, 255, 0.05);
-    padding: 12px 10px;
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
-}
-
-#mobile-category-list a:hover {
-    color: var(--accent-pink);
-    border-color: var(--accent-pink);
-}
-
-#mobile-category-list a.active {
-    background: rgba(231, 76, 60, 0.1);
-    color: var(--accent-pink);
-    border-color: var(--accent-pink);
-}
+/* Mobile Categories Styling removed as requested */
 
 .category-nav {
     width: 100%;
@@ -357,22 +242,31 @@ ul {
     .category-nav {
         display: block !important;
         overflow-x: auto;
+        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         width: 100vw;
         margin-left: calc(-1 * var(--space-s));
-        padding-bottom: 5px;
+        padding: 5px 0 10px;
+        scrollbar-width: none;
+    }
+
+    .category-nav::-webkit-scrollbar {
+        display: none;
     }
 
     #category-list {
+        display: flex !important;
+        width: max-content;
+        /* Critical for scroll */
         justify-content: flex-start !important;
         flex-wrap: nowrap !important;
         padding: 0 var(--space-m) !important;
-        gap: 10px !important;
+        gap: 12px !important;
     }
 
     .category-nav a {
-        font-size: 0.75rem;
-        padding: 6px 14px;
+        font-size: 0.8rem;
+        padding: 8px 16px;
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
         border: 1px solid var(--border-color);
@@ -380,9 +274,9 @@ ul {
     }
 
     .category-nav a.active {
-        background: rgba(231, 76, 60, 0.1);
-        color: var(--accent-pink);
-        border-color: var(--accent-pink);
+        background: rgba(169, 142, 58, 0.1);
+        color: var(--accent-teal);
+        border-color: var(--accent-teal);
         border-bottom-width: 1px;
     }
 }
