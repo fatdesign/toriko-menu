@@ -10,12 +10,17 @@
         {
           "name": {
             "de": "Kimchi Salad",
-            "en": "Kimchi Salad"
+            "en": "Kimchi Salad",
+            "tr": "",
+            "es": ""
           },
           "price": "5.10",
+          "isSoldOut": true,
           "desc": {
             "de": "Scharf fermentierter Chinakohl nach koreanischer Art.",
-            "en": "Spicy fermented napa cabbage Korean style."
+            "en": "Spicy fermented napa cabbage Korean style.",
+            "tr": "",
+            "es": ""
           }
         },
         {
@@ -68,12 +73,17 @@
         {
           "name": {
             "de": "Yang Nyem Boneless Chicken",
-            "en": "Yang Nyem Boneless Chicken"
+            "en": "Yang Nyem Boneless Chicken",
+            "tr": "",
+            "es": ""
           },
           "price": "17.90",
+          "isSoldOut": true,
           "desc": {
             "de": "Typsiches Korean Chicken in süß-scharfer Yang Nyem Sauce.",
-            "en": "Typical Korean Chicken in sweet and spicy Yang Nyem sauce."
+            "en": "Typical Korean Chicken in sweet and spicy Yang Nyem sauce.",
+            "tr": "",
+            "es": ""
           }
         },
         {
