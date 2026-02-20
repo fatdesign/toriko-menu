@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         mobileCategoryList.innerHTML = '';
 
         menuData.categories.forEach((cat, index) => {
+            if (cat.hidden === true) return; // Skip hidden categories
             const activeItems = cat.items.filter(item => item.isSoldOut !== true);
             if (activeItems.length === 0) return; // Skip empty categories
 

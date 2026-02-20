@@ -1,212 +1,259 @@
 {
-  "categories": [
-    {
-      "id": "starters",
-      "name": {
-        "de": "Starters & Salads",
-        "en": "Starters & Salads"
-      },
-      "items": [
+    "categories": [
         {
-          "name": {
-            "de": "Kimchi Salad",
-            "en": "Kimchi Salad",
-            "tr": "",
-            "es": ""
-          },
-          "price": "5.10",
-          "isSoldOut": true,
-          "desc": {
-            "de": "Scharf fermentierter Chinakohl nach koreanischer Art.",
-            "en": "Spicy fermented napa cabbage Korean style.",
-            "tr": "",
-            "es": ""
-          }
+            "id": "starters",
+            "hidden": false,
+            "name": {
+                "de": "Starters & Salads",
+                "en": "Starters & Salads",
+                "tr": "Başlangıçlar ve Salatalar",
+                "es": "Entrantes y Ensaladas"
+            },
+            "items": [
+                {
+                    "name": {
+                        "de": "Kimchi Salad",
+                        "en": "Kimchi Salad",
+                        "tr": "Kimchi Salatası",
+                        "es": "Ensalada Kimchi"
+                    },
+                    "price": "5.10",
+                    "desc": {
+                        "de": "Scharf fermentierter Chinakohl nach koreanischer Art.",
+                        "en": "Spicy fermented napa cabbage Korean style.",
+                        "tr": "Kore usulü baharatlı fermente çin lahanası.",
+                        "es": "Col china fermentada picante al estilo coreano."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Edamame With Salt",
+                        "en": "Edamame With Salt",
+                        "tr": "Tuzlu Edamame",
+                        "es": "Edamame con Sal"
+                    },
+                    "price": "5.50",
+                    "desc": {
+                        "de": "Gedämpfte Sojabohnen mit feinem Meersalz und Sesamöl.",
+                        "en": "Steamed soybeans with sea salt and sesame oil.",
+                        "tr": "Deniz tuzu ve susam yağı ile buharda pişirilmiş soya fasulyesi.",
+                        "es": "Soja al vapor con sal marina y aceite de sésamo."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Satay Gai",
+                        "en": "Satay Gai",
+                        "tr": "Satay Gai",
+                        "es": "Satay Gai"
+                    },
+                    "price": "8.00",
+                    "desc": {
+                        "de": "3 Stk. Hühnerspieße mit hausgemachter Erdnusssauce.",
+                        "en": "3 pcs. chicken skewers with homemade peanut sauce.",
+                        "tr": "Ev yapımı fıstık soslu 3 adet tavuk şiş.",
+                        "es": "3 uds. brochetas de pollo con salsa de cacahuete casera."
+                    }
+                }
+            ]
         },
         {
-          "name": {
-            "de": "Edamame With Salt",
-            "en": "Edamame With Salt",
-            "tr": "",
-            "es": ""
-          },
-          "price": "5.50",
-          "isSoldOut": true,
-          "desc": {
-            "de": "Gedämpfte Sojabohnen mit feinem Meersalz und Sesamöl.",
-            "en": "Steamed soybeans with sea salt and sesame oil.",
-            "tr": "",
-            "es": ""
-          }
+            "id": "fried-chicken",
+            "hidden": false,
+            "name": {
+                "de": "Korean Fried Chicken",
+                "en": "Korean Fried Chicken",
+                "tr": "Kore Usulü Kızarmış Tavuk",
+                "es": "Pollo Frito Coreano"
+            },
+            "items": [
+                {
+                    "name": {
+                        "de": "Boneless Chicken Original",
+                        "en": "Boneless Chicken Original",
+                        "tr": "Kemiksiz Orijinal Tavuk",
+                        "es": "Pollo Deshuesado Original"
+                    },
+                    "price": "16.90",
+                    "desc": {
+                        "de": "Knuspriges, handpaniertes Hähnchen ohne Knochen in Toriko-Panade.",
+                        "en": "Crispy, hand-breaded boneless chicken in Toriko breading.",
+                        "tr": "Toriko usulü çıtır, el yapımı kemiksiz tavuk.",
+                        "es": "Pollo deshuesado crujiente rebozado a mano al estilo Toriko."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Yang Nyem Boneless Chicken",
+                        "en": "Yang Nyem Boneless Chicken",
+                        "tr": "Yang Nyem Kemiksiz Tavuk",
+                        "es": "Pollo Deshuesado Yang Nyem"
+                    },
+                    "price": "17.90",
+                    "desc": {
+                        "de": "Typsiches Korean Chicken in süß-scharfer Yang Nyem Sauce.",
+                        "en": "Typical Korean Chicken in sweet and spicy Yang Nyem sauce.",
+                        "tr": "Tatlı ve acı Yang Nyem soslu tipik Kore tavuğu.",
+                        "es": "Pollo coreano típico en salsa Yang Nyem agridulce."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Chicken Wings Original",
+                        "en": "Chicken Wings Original",
+                        "tr": "Orijinal Tavuk Kanatları",
+                        "es": "Alitas de Pollo Originales"
+                    },
+                    "price": "14.90",
+                    "desc": {
+                        "de": "Knusprige Hühnerflügel, perfekt frittiert.",
+                        "en": "Crispy chicken wings, perfectly fried.",
+                        "tr": "Mükemmel kızarmış çıtır tavuk kanatları.",
+                        "es": "Alitas de pollo crujientes, perfectamente fritas."
+                    }
+                }
+            ]
         },
         {
-          "name": {
-            "de": "Satay Gai",
-            "en": "Satay Gai",
-            "tr": "",
-            "es": ""
-          },
-          "price": "8.00",
-          "isSoldOut": false,
-          "desc": {
-            "de": "3 Stk. Hühnerspieße mit hausgemachter Erdnusssauce.",
-            "en": "3 pcs. chicken skewers with homemade peanut sauce.",
-            "tr": "",
-            "es": ""
-          }
+            "id": "burgers-bowls",
+            "hidden": false,
+            "name": {
+                "de": "Burgers & Bowls",
+                "en": "Burgers & Bowls",
+                "tr": "Burgerler ve Kaseler",
+                "es": "Hamburguesas y Bowls"
+            },
+            "items": [
+                {
+                    "name": {
+                        "de": "Smashed Burger 113g",
+                        "en": "Smashed Burger 113g",
+                        "tr": "Smashed Burger 113g",
+                        "es": "Hamburguesa Smashed 113g"
+                    },
+                    "price": "11.90",
+                    "desc": {
+                        "de": "Scharfe House-Sauce, Pickles, Smashed Beef und Cheddar.",
+                        "en": "Spicy house sauce, pickles, smashed beef and cheddar.",
+                        "tr": "Acı ev sosu, turşu, ezilmiş dana eti ve cheddar.",
+                        "es": "Salsa picante de la casa, pepinillos, carne smashed y cheddar."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Chicken Avocado Bowl",
+                        "en": "Chicken Avocado Bowl",
+                        "tr": "Tavuklu Avokadolu Kase",
+                        "es": "Bowl de Pollo y Aguacate"
+                    },
+                    "price": "17.90",
+                    "desc": {
+                        "de": "Sushireis, Fried Chicken, Avocado, Karotten, Rotkohlsalat und Yang Nyem Sauce.",
+                        "en": "Sushi rice, fried chicken, avocado, carrots, red cabbage salad and Yang Nyem sauce.",
+                        "tr": "Sushi pirinci, kızarmış tavuk, avokado, havuç, mor lahana salatası ve Yang Nyem sosu.",
+                        "es": "Arroz para sushi, pollo frito, aguacate, zanahorias, ensalada de col lombarda y salsa Yang Nyem."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sides",
+            "hidden": false,
+            "name": {
+                "de": "Sides & Sauces",
+                "en": "Sides & Sauces",
+                "tr": "Yan Ürünler ve Soslar",
+                "es": "Acompañamientos y Salsas"
+            },
+            "items": [
+                {
+                    "name": {
+                        "de": "Sweet Potato Fries",
+                        "en": "Sweet Potato Fries",
+                        "tr": "Tatlı Patates Kızartması",
+                        "es": "Batatas Fritas"
+                    },
+                    "price": "6.50",
+                    "desc": {
+                        "de": "Knusprige Süßkartoffelpommes.",
+                        "en": "Crispy sweet potato fries.",
+                        "tr": "Çıtır tatlı patates kızartması.",
+                        "es": "Batatas fritas crujientes."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Hot Fries Peri Peri",
+                        "en": "Hot Fries Peri Peri",
+                        "tr": "Acı Peri Peri Patates",
+                        "es": "Patatas Picantes Peri Peri"
+                    },
+                    "price": "6.50",
+                    "desc": {
+                        "de": "Pommes mit würzigem Peri Peri Gewürz.",
+                        "en": "Fries with spicy Peri Peri seasoning.",
+                        "tr": "Baharatlı Peri Peri aromalı patates kızartması.",
+                        "es": "Patatas con sazón picante Peri Peri."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Mango Mayo Sauce",
+                        "en": "Mango Mayo Sauce",
+                        "tr": "Mango Mayonez Sos",
+                        "es": "Salsa Mayo de Mango"
+                    },
+                    "price": "1.50",
+                    "desc": {
+                        "de": "Hausgemachte Mango-Mayonnaise.",
+                        "en": "Homemade mango mayonnaise.",
+                        "tr": "Ev yapımı mango mayonezi.",
+                        "es": "Mayonesa de mango casera."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "drinks",
+            "hidden": false,
+            "name": {
+                "de": "Drinks",
+                "en": "Drinks",
+                "tr": "İçecekler",
+                "es": "Bebidas"
+            },
+            "items": [
+                {
+                    "name": {
+                        "de": "Cass Beer 0.33l",
+                        "en": "Cass Beer 0.33l",
+                        "tr": "Cass Bira 0.33l",
+                        "es": "Cerveza Cass 0.33l"
+                    },
+                    "price": "5.10",
+                    "desc": {
+                        "de": "Koreanisches Premium Lager.",
+                        "en": "Korean premium lager.",
+                        "tr": "Kore birinci sınıf birası.",
+                        "es": "Cerveza lager premium coreana."
+                    }
+                },
+                {
+                    "name": {
+                        "de": "Soju Strawberry",
+                        "en": "Soju Strawberry",
+                        "tr": "Çilekli Soju",
+                        "es": "Soju de Fresa"
+                    },
+                    "price": "7.90",
+                    "desc": {
+                        "de": "Koreanischer Reisschnaps mit Erdbeergeschmack.",
+                        "en": "Korean rice spirit with strawberry flavor.",
+                        "tr": "Çilek aromalı Kore pirinç likörü.",
+                        "es": "Licor de arroz coreano con sabor a fresa."
+                    }
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "fried-chicken",
-      "name": {
-        "de": "Korean Fried Chicken",
-        "en": "Korean Fried Chicken"
-      },
-      "items": [
-        {
-          "name": {
-            "de": "Boneless Chicken Original",
-            "en": "Boneless Chicken Original"
-          },
-          "price": "16.90",
-          "desc": {
-            "de": "Knuspriges, handpaniertes Hähnchen ohne Knochen in Toriko-Panade.",
-            "en": "Crispy, hand-breaded boneless chicken in Toriko breading."
-          }
-        },
-        {
-          "name": {
-            "de": "Yang Nyem Boneless Chicken",
-            "en": "Yang Nyem Boneless Chicken",
-            "tr": "",
-            "es": ""
-          },
-          "price": "17.90",
-          "isSoldOut": true,
-          "desc": {
-            "de": "Typsiches Korean Chicken in süß-scharfer Yang Nyem Sauce.",
-            "en": "Typical Korean Chicken in sweet and spicy Yang Nyem sauce.",
-            "tr": "",
-            "es": ""
-          }
-        },
-        {
-          "name": {
-            "de": "Chicken Wings Original",
-            "en": "Chicken Wings Original"
-          },
-          "price": "14.90",
-          "desc": {
-            "de": "Knusprige Hühnerflügel, perfekt frittiert.",
-            "en": "Crispy chicken wings, perfectly fried."
-          }
-        }
-      ]
-    },
-    {
-      "id": "burgers-bowls",
-      "name": {
-        "de": "Burgers & Bowls",
-        "en": "Burgers & Bowls"
-      },
-      "items": [
-        {
-          "name": {
-            "de": "Smashed Burger 113g",
-            "en": "Smashed Burger 113g"
-          },
-          "price": "11.90",
-          "desc": {
-            "de": "Scharfe House-Sauce, Pickles, Smashed Beef und Cheddar.",
-            "en": "Spicy house sauce, pickles, smashed beef and cheddar."
-          }
-        },
-        {
-          "name": {
-            "de": "Chicken Avocado Bowl",
-            "en": "Chicken Avocado Bowl"
-          },
-          "price": "17.90",
-          "desc": {
-            "de": "Sushireis, Fried Chicken, Avocado, Karotten, Rotkohlsalat und Yang Nyem Sauce.",
-            "en": "Sushi rice, fried chicken, avocado, carrots, red cabbage salad and Yang Nyem sauce."
-          }
-        }
-      ]
-    },
-    {
-      "id": "sides",
-      "name": {
-        "de": "Sides & Sauces",
-        "en": "Sides & Sauces"
-      },
-      "items": [
-        {
-          "name": {
-            "de": "Sweet Potato Fries",
-            "en": "Sweet Potato Fries"
-          },
-          "price": "6.50",
-          "desc": {
-            "de": "Knusprige Süßkartoffelpommes.",
-            "en": "Crispy sweet potato fries."
-          }
-        },
-        {
-          "name": {
-            "de": "Hot Fries Peri Peri",
-            "en": "Hot Fries Peri Peri"
-          },
-          "price": "6.50",
-          "desc": {
-            "de": "Pommes mit würzigem Peri Peri Gewürz.",
-            "en": "Fries with spicy Peri Peri seasoning."
-          }
-        },
-        {
-          "name": {
-            "de": "Mango Mayo Sauce",
-            "en": "Mango Mayo Sauce"
-          },
-          "price": "1.50",
-          "desc": {
-            "de": "Hausgemachte Mango-Mayonnaise.",
-            "en": "Homemade mango mayonnaise."
-          }
-        }
-      ]
-    },
-    {
-      "id": "drinks",
-      "name": {
-        "de": "Drinks",
-        "en": "Drinks"
-      },
-      "items": [
-        {
-          "name": {
-            "de": "Cass Beer 0.33l",
-            "en": "Cass Beer 0.33l"
-          },
-          "price": "5.10",
-          "desc": {
-            "de": "Koreanisches Premium Lager.",
-            "en": "Korean premium lager."
-          }
-        },
-        {
-          "name": {
-            "de": "Soju Strawberry",
-            "en": "Soju Strawberry"
-          },
-          "price": "7.90",
-          "desc": {
-            "de": "Koreanischer Reisschnaps mit Erdbeergeschmack.",
-            "en": "Korean rice spirit with strawberry flavor."
-          }
-        }
-      ]
-    }
-  ]
+    ]
 }

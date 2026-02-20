@@ -167,17 +167,23 @@ function renderDashboard() {
         const catName = cat.name['de'] || 'N/A';
 
         block.innerHTML = `
-            <div class="category-header">
-                <span class="category-name">${catName}</span>
+            <div class="category-header ${cat.hidden ? 'is-hidden' : ''}">
+                <div class="category-title-area">
+                    <span class="category-name">${catName}</span>
+                    ${cat.hidden ? '<span class="badge-hidden">AUSGEBLENDET</span>' : ''}
+                </div>
                 <div class="category-actions">
+                    <button class="btn btn-ghost btn-sm toggle-cat-btn" data-cat-idx="${catIdx}">
+                        ${cat.hidden ? '👁 Einblenden' : '🚫 Ausblenden'}
+                    </button>
                     <button class="btn btn-ghost btn-sm edit-cat-btn" data-cat-idx="${catIdx}">✏️ Umbenennen</button>
                     <button class="btn btn-danger btn-sm delete-cat-btn" data-cat-idx="${catIdx}">🗑 Kategorie löschen</button>
                 </div>
             </div>
-            <div class="item-list" id="item-list-${catIdx}">
+            <div class="item-list ${cat.hidden ? 'hidden' : ''}" id="item-list-${catIdx}">
                 ${cat.items.map((item, itemIdx) => renderItemRow(item, catIdx, itemIdx)).join('')}
             </div>
-            <div class="add-item-row">
+            <div class="add-item-row ${cat.hidden ? 'hidden' : ''}">
                 <button class="btn btn-secondary add-item-btn" data-cat-idx="${catIdx}">+ Gericht hinzufügen</button>
             </div>
         `;
@@ -194,6 +200,13 @@ function renderDashboard() {
         btn.addEventListener('click', () => deleteCategory(parseInt(btn.dataset.catIdx))));
     document.querySelectorAll('.edit-cat-btn').forEach(btn =>
         btn.addEventListener('click', () => openCatModal(parseInt(btn.dataset.catIdx))));
+    document.querySelectorAll('.toggle-cat-btn').forEach(btn =>
+        btn.addEventListener('click', () => toggleCategoryVisibility(parseInt(btn.dataset.catIdx))));
+}
+
+function toggleCategoryVisibility(catIdx) {
+    menuData.categories[catIdx].hidden = !menuData.categories[catIdx].hidden;
+    renderDashboard();
 }
 
 function renderItemRow(item, catIdx, itemIdx) {

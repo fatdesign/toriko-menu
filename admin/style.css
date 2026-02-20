@@ -623,6 +623,27 @@ input:checked+.slider:before {
     display: inline-block;
 }
 
+.category-header.is-hidden {
+    opacity: 0.7;
+    background: var(--surface);
+}
+
+.category-title-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge-hidden {
+    background: var(--text-muted);
+    color: var(--bg);
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
 .item-row.is-unavailable {
     opacity: 0.6;
     background: var(--red-dim);

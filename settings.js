@@ -30,6 +30,6 @@ const SETTINGS = {
     storageKey: "toriko_menu_lang",
 
     // 4. FEATURES
-    languages: ["de", "en"],
+    languages: ["de", "en", "tr", "es"],
     defaultLang: "de"
 };
