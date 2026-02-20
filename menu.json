@@ -26,12 +26,17 @@
         {
           "name": {
             "de": "Edamame With Salt",
-            "en": "Edamame With Salt"
+            "en": "Edamame With Salt",
+            "tr": "",
+            "es": ""
           },
           "price": "5.50",
+          "isSoldOut": true,
           "desc": {
             "de": "Gedämpfte Sojabohnen mit feinem Meersalz und Sesamöl.",
-            "en": "Steamed soybeans with sea salt and sesame oil."
+            "en": "Steamed soybeans with sea salt and sesame oil.",
+            "tr": "",
+            "es": ""
           }
         },
         {
