@@ -1,698 +1,698 @@
 {
-    "categories": [
+  "categories": [
+    {
+      "id": "popular",
+      "hidden": false,
+      "name": {
+        "de": "❤️ Beliebt",
+        "en": "❤️ Popular",
+        "tr": "❤️ Popüler",
+        "es": "❤️ Popular"
+      },
+      "items": [
         {
-            "id": "popular",
-            "hidden": false,
-            "name": {
-                "de": "❤️ Beliebt",
-                "en": "❤️ Popular",
-                "tr": "❤️ Popüler",
-                "es": "❤️ Popular"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Spicy Yang Nyem Style Boneless Chicken",
-                        "en": "Spicy Yang Nyem Style Boneless Chicken",
-                        "tr": "Acılı Yang Nyem Usulü Kemiksiz Tavuk",
-                        "es": "Pollo Deshuesado Estilo Yang Nyem Picante"
-                    },
-                    "price": "17.90",
-                    "desc": {
-                        "de": "Knuspriges, handpaniertes Hähnchen ohne Knochen in scharfer Yang Nyem Sauce.",
-                        "en": "Crispy, hand-breaded boneless chicken in spicy Yang Nyem sauce.",
-                        "tr": "Acılı Yang Nyem soslu çıtır, kemiksiz tavuk.",
-                        "es": "Pollo deshuesado crujiente en salsa Yang Nyem picante."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Mixed Box 12Stk",
-                        "en": "Mixed Box 12pcs",
-                        "tr": "Karışık Kutu 12 Adet",
-                        "es": "Caja Mixta 12 uds"
-                    },
-                    "price": "29.90",
-                    "desc": {
-                        "de": "Eine bunte Mischung unserer besten Chicken-Styles.",
-                        "en": "A colorful mix of our best chicken styles.",
-                        "tr": "En iyi tavuk çeşitlerimizin karışımı.",
-                        "es": "Una mezcla variada de nuestros mejores estilos de pollo."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Süßkartoffel Pommes",
-                        "en": "Sweet Potato Fries",
-                        "tr": "Tatlı Patates Kızartması",
-                        "es": "Batatas Fritas"
-                    },
-                    "price": "6.50",
-                    "desc": {
-                        "de": "Knusprige Süßkartoffelpommes.",
-                        "en": "Crispy sweet potato fries.",
-                        "tr": "Çıtır tatlı patates kızartması.",
-                        "es": "Batatas fritas crujientes."
-                    }
-                }
-            ]
+          "name": {
+            "de": "Spicy Yang Nyem Style Boneless Chicken",
+            "en": "Spicy Yang Nyem Style Boneless Chicken",
+            "tr": "Acılı Yang Nyem Usulü Kemiksiz Tavuk",
+            "es": "Pollo Deshuesado Estilo Yang Nyem Picante"
+          },
+          "price": "17.90",
+          "desc": {
+            "de": "Knuspriges, handpaniertes Hähnchen ohne Knochen in scharfer Yang Nyem Sauce.",
+            "en": "Crispy, hand-breaded boneless chicken in spicy Yang Nyem sauce.",
+            "tr": "Acılı Yang Nyem soslu çıtır, kemiksiz tavuk.",
+            "es": "Pollo deshuesado crujiente en salsa Yang Nyem picante."
+          }
         },
         {
-            "id": "salads",
-            "hidden": false,
-            "name": {
-                "de": "Salate",
-                "en": "Salads",
-                "tr": "Salatalar",
-                "es": "Ensaladas"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Avocadosalat",
-                        "en": "Avocado Salad",
-                        "tr": "Avokado Salatası",
-                        "es": "Ensalada de Aguacate"
-                    },
-                    "price": "11.90",
-                    "desc": {
-                        "de": "Frischer Salat mit cremiger Avocado.",
-                        "en": "Fresh salad with creamy avocado.",
-                        "tr": "Kremamsı avokadolu taze salata.",
-                        "es": "Ensalada fresca con aguacate cremoso."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Kimchi Chicken Salat",
-                        "en": "Kimchi Chicken Salad",
-                        "tr": "Kimchi Tavuk Salatası",
-                        "es": "Ensalada de Pollo Kimchi"
-                    },
-                    "price": "14.90",
-                    "desc": {
-                        "de": "Salat mit knusprigem Chicken und scharfem Kimchi.",
-                        "en": "Salad with crispy chicken and spicy kimchi.",
-                        "tr": "Çıtır tavuk ve acı kimchi ile salata.",
-                        "es": "Ensalada con pollo crujiente y kimchi picante."
-                    }
-                }
-            ]
+          "name": {
+            "de": "Mixed Box 12Stk",
+            "en": "Mixed Box 12pcs",
+            "tr": "Karışık Kutu 12 Adet",
+            "es": "Caja Mixta 12 uds"
+          },
+          "price": "29.90",
+          "desc": {
+            "de": "Eine bunte Mischung unserer besten Chicken-Styles.",
+            "en": "A colorful mix of our best chicken styles.",
+            "tr": "En iyi tavuk çeşitlerimizin karışımı.",
+            "es": "Una mezcla variada de nuestros mejores estilos de pollo."
+          }
         },
         {
-            "id": "chicken",
-            "hidden": false,
-            "name": {
-                "de": "Chicken Wings & Boneless",
-                "en": "Chicken Wings & Boneless",
-                "tr": "Tavuk Kanatları ve Kemiksiz Tavuklar",
-                "es": "Alitas de Pollo y Deshuesado"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Yang Nyem Style Chicken Wings",
-                        "en": "Yang Nyem Style Chicken Wings",
-                        "tr": "Yang Nyem Usulü Tavuk Kanatları",
-                        "es": "Alitas de Pollo Estilo Yang Nyem"
-                    },
-                    "price": "16.90",
-                    "desc": {
-                        "de": "Hähnchenflügel in süß-pikanter Sauce.",
-                        "en": "Chicken wings in sweet and spicy sauce.",
-                        "tr": "Tatlı ve acı soslu tavuk kanatları.",
-                        "es": "Alitas de pollo en salsa agridulce."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Yang Nyem Style Boneless Chicken",
-                        "en": "Yang Nyem Style Boneless Chicken",
-                        "tr": "Yang Nyem Usulü Kemiksiz Tavuk",
-                        "es": "Pollo Deshuesado Estilo Yang Nyem"
-                    },
-                    "price": "17.90",
-                    "desc": {
-                        "de": "Zarte Hähnchenstücke ohne Knochen in süß-pikanter Sauce.",
-                        "en": "Tender boneless chicken pieces in sweet and spicy sauce.",
-                        "tr": "Tatlı ve acı soslu kemiksiz tavuk parçaları.",
-                        "es": "Trocitos de pollo deshuesado en salsa agridulce."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Spicy Yang Nyem Style Chicken Wings",
-                        "en": "Spicy Yang Nyem Style Chicken Wings",
-                        "tr": "Acılı Yang Nyem Usulü Tavuk Kanatları",
-                        "es": "Alitas de Pollo Estilo Yang Nyem Picante"
-                    },
-                    "price": "16.90",
-                    "desc": {
-                        "de": "Extra scharfe Hähnchenflügel.",
-                        "en": "Extra spicy chicken wings.",
-                        "tr": "Ekstra acılı tavuk kanatları.",
-                        "es": "Alitas de pollo extra picantes."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Sweet Cheese Chicken Wings",
-                        "en": "Sweet Cheese Chicken Wings",
-                        "tr": "Tatlı Peynirli Tavuk Kanatları",
-                        "es": "Alitas de Pollo con Queso Dulce"
-                    },
-                    "price": "18.90",
-                    "desc": {
-                        "de": "Hähnchenflügel mit süßer Käseglasur.",
-                        "en": "Chicken wings with sweet cheese glaze.",
-                        "tr": "Tatlı peynir soslu tavuk kanatları.",
-                        "es": "Alitas de pollo con glaseado de queso dulce."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Sweet Cheese Boneless Chicken",
-                        "en": "Sweet Cheese Boneless Chicken",
-                        "tr": "Tatlı Peynirli Kemiksiz Tavuk",
-                        "es": "Pollo Deshuesado con Queso Dulce"
-                    },
-                    "price": "19.90",
-                    "desc": {
-                        "de": "Kemiksiz Tavuk mit süßer Käseglasur.",
-                        "en": "Boneless Chicken with sweet cheese glaze.",
-                        "tr": "Tatlı peynir soslu kemiksiz tavuk.",
-                        "es": "Pollo deshuesado con glaseado de queso dulce."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Soy Garlic Sauce Chicken Wings",
-                        "en": "Soy Garlic Sauce Chicken Wings",
-                        "tr": "Soya Sarımsak Soslu Tavuk Kanatları",
-                        "es": "Alitas de Pollo en Salsa de Soja y Ajo"
-                    },
-                    "price": "16.90",
-                    "desc": {
-                        "de": "Herzhafte Flügel in Soya-Knoblauch Sauce.",
-                        "en": "Savory wings in soy-garlic sauce.",
-                        "tr": "Soya ve sarımsak soslu lezzetli kanatlar.",
-                        "es": "Alitas de pollo en salsa de soja y ajo."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Soy Garlic Sauce Boneless Chicken",
-                        "en": "Soy Garlic Sauce Boneless Chicken",
-                        "tr": "Soya Sarımsak Soslu Kemiksiz Tavuk",
-                        "es": "Pollo Deshuesado en Salsa de Soja y Ajo"
-                    },
-                    "price": "17.90",
-                    "desc": {
-                        "de": "Kemiksiz Hähnchen in herzhafter Soya-Knoblauch Sauce.",
-                        "en": "Boneless chicken in savory soy-garlic sauce.",
-                        "tr": "Soya ve sarımsak soslu kemiksiz tavuk.",
-                        "es": "Pollo deshuesado en salsa de soja y ajo."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Mixed Box 6Stk",
-                        "en": "Mixed Box 6pcs",
-                        "tr": "Karışık Kutu 6 Adet",
-                        "es": "Caja Mixta 6 uds"
-                    },
-                    "price": "19.90",
-                    "desc": {
-                        "de": "Eine kleine Auswahl unserer besten Sorten.",
-                        "en": "A small selection of our best varieties.",
-                        "tr": "En iyi çeşitlerimizden küçük bir seçki.",
-                        "es": "Una pequeña selección de nuestras mejores variedades."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "burgers",
-            "hidden": false,
-            "name": {
-                "de": "Burger",
-                "en": "Burgers",
-                "tr": "Burgerler",
-                "es": "Hamburguesas"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Hamburger 150g",
-                        "en": "Hamburger 150g",
-                        "tr": "Hamburger 150g",
-                        "es": "Hamburguesa 150g"
-                    },
-                    "price": "11.90",
-                    "desc": {
-                        "de": "Klassischer Hamburger mit 150g Rindfleisch.",
-                        "en": "Classic hamburger with 150g beef.",
-                        "tr": "150g dana etli klasik hamburger.",
-                        "es": "Hamburguesa clásica con 150g de ternera."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Cheeseburger 150g",
-                        "en": "Cheeseburger 150g",
-                        "tr": "Cheeseburger 150g",
-                        "es": "Hamburguesa con Queso 150g"
-                    },
-                    "price": "12.50",
-                    "desc": {
-                        "de": "Hamburger mit geschmolzenem Cheddar.",
-                        "en": "Hamburger with melted cheddar.",
-                        "tr": "Eritilmiş cheddar peynirli hamburger.",
-                        "es": "Hamburguesa con cheddar fundido."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Tofu Burger",
-                        "en": "Tofu Burger",
-                        "tr": "Tofu Burger",
-                        "es": "Hamburguesa de Tofu"
-                    },
-                    "price": "12.50",
-                    "desc": {
-                        "de": "Tofu Patty, Eisbergsalat, Avocado, Tomaten, hausgemachte Cashew-Nuss Sauce.",
-                        "en": "Tofu patty, iceberg lettuce, avocado, tomatoes, homemade cashew sauce.",
-                        "tr": "Tofu köftesi, marul, avokado, domates, ev yapımı kaju sosu.",
-                        "es": "Carne de tofu, lechuga, aguacate, tomate, salsa de anacardos casera."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "bowls",
-            "hidden": false,
-            "name": {
-                "de": "Bowls",
-                "en": "Bowls",
-                "tr": "Kaseler",
-                "es": "Bowls"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Tofubowl vegan",
-                        "en": "Tofu Bowl vegan",
-                        "tr": "Tofu Kasesi vegan",
-                        "es": "Bowl de Tofu vegano"
-                    },
-                    "price": "14.90",
-                    "desc": {
-                        "de": "Frische Bowl mit mariniertem Tofu und Gemüse.",
-                        "en": "Fresh bowl with marinated tofu and vegetables.",
-                        "tr": "Marine edilmiş tofu ve sebzeli taze kase.",
-                        "es": "Bowl fresco con tofu marinado y verduras."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Lachs Avocado Bowl",
-                        "en": "Salmon Avocado Bowl",
-                        "tr": "Somonlu Avokadolu Kase",
-                        "es": "Bowl de Salmón y Aguacate"
-                    },
-                    "price": "18.90",
-                    "desc": {
-                        "de": "Frischer Lachs, Avocado und Sushireis.",
-                        "en": "Fresh salmon, avocado and sushi rice.",
-                        "tr": "Taze somon, avokado ve sushi pirinci.",
-                        "es": "Salmón fresco, aguacate y arroz para sushi."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Chicken Avocado Bowl",
-                        "en": "Chicken Avocado Bowl",
-                        "tr": "Tavuklu Avokadolu Kase",
-                        "es": "Bowl de Pollo y Aguacate"
-                    },
-                    "price": "17.90",
-                    "desc": {
-                        "de": "Knuspriges Chicken mit Avocado und Gemüse.",
-                        "en": "Crispy chicken with avocado and vegetables.",
-                        "tr": "Çıtır tavuk, avokado ve sebzeli kase.",
-                        "es": "Pollo crujiente con aguacate y verduras."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Beef Bulgogi Bowl",
-                        "en": "Beef Bulgogi Bowl",
-                        "tr": "Dana Bulgogi Kasesi",
-                        "es": "Bowl de Ternera Bulgogi"
-                    },
-                    "price": "20.90",
-                    "desc": {
-                        "de": "Traditionelles koreanisches Bulgogi-Rindfleisch.",
-                        "en": "Traditional Korean Bulgogi beef.",
-                        "tr": "Geleneksel Kore usulü Bulgogi dana eti.",
-                        "es": "Ternera Bulgogi coreana tradicional."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tteokbokki",
-            "hidden": false,
-            "name": {
-                "de": "Tteokbokki",
-                "en": "Tteokbokki",
-                "tr": "Tteokbokki",
-                "es": "Tteokbokki"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Sweet Cheese Tteokbokki",
-                        "en": "Sweet Cheese Tteokbokki",
-                        "tr": "Tatlı Peynirli Tteokbokki",
-                        "es": "Tteokbokki con Queso Dulce"
-                    },
-                    "price": "10.90",
-                    "desc": {
-                        "de": "Reiskuchen in süßer Käsesauce.",
-                        "en": "Rice cakes in sweet cheese sauce.",
-                        "tr": "Tatlı peynir soslu pirinç keki.",
-                        "es": "Pasteles de arroz en salsa de queso dulce."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Yang Nyem Style Tteokbokki",
-                        "en": "Yang Nyem Style Tteokbokki",
-                        "tr": "Yang Nyem Usulü Tteokbokki",
-                        "es": "Tteokbokki Estilo Yang Nyem"
-                    },
-                    "price": "10.90",
-                    "desc": {
-                        "de": "Süß-pikante Reiskuchen nach koreanischer Art.",
-                        "en": "Sweet and spicy Korean style rice cakes.",
-                        "tr": "Kore usulü tatlı ve acı pirinç keki.",
-                        "es": "Pasteles de arroz coreanos agridulces."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "fries",
-            "hidden": false,
-            "name": {
-                "de": "Fries",
-                "en": "Fries",
-                "tr": "Patatesler",
-                "es": "Patatas"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Original Fries",
-                        "en": "Original Fries",
-                        "tr": "Orijinal Patates",
-                        "es": "Patatas Originales"
-                    },
-                    "price": "6.50",
-                    "desc": {
-                        "de": "Knusprig goldene Pommes.",
-                        "en": "Crispy golden fries.",
-                        "tr": "Çıtır altın sarısı patates.",
-                        "es": "Patatas doradas crujientes."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Süßkartoffel Pommes",
-                        "en": "Sweet Potato Fries",
-                        "tr": "Tatlı Patates Kızartması",
-                        "es": "Batatas Fritas"
-                    },
-                    "price": "6.50",
-                    "desc": {
-                        "de": "Knusprige Süßkartoffelpommes.",
-                        "en": "Crispy sweet potato fries.",
-                        "tr": "Çıtır tatlı patates kızartması.",
-                        "es": "Batatas fritas crujientes."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "snacks",
-            "hidden": false,
-            "name": {
-                "de": "Snacks",
-                "en": "Snacks",
-                "tr": "Atıştırmalıklar",
-                "es": "Snacks"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Original Yegam Kartoffelchips",
-                        "en": "Original Yegam Potato Chips",
-                        "tr": "Orijinal Yegam Patates Cipsi",
-                        "es": "Patatas Chips Originales Yegam"
-                    },
-                    "price": "3.90",
-                    "desc": {
-                        "de": "Authentische koreanische Kartoffelchips.",
-                        "en": "Authentic Korean potato chips.",
-                        "tr": "Orijinal Kore patates cipsi.",
-                        "es": "Patatas chips coreanas auténticas."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Baked Corn Almond",
-                        "en": "Baked Corn Almond",
-                        "tr": "Fırınlanmış Mısırlı Badem",
-                        "es": "Almendra de Maíz Horneada"
-                    },
-                    "price": "7.90",
-                    "isSoldOut": true,
-                    "desc": {
-                        "de": "Bald zurück - Leckere Mandeln mit Maisgeschmack.",
-                        "en": "Back soon - Delicious almonds with corn flavor.",
-                        "tr": "Yakında stokta - Mısır aromalı lezzetli bademler.",
-                        "es": "Próximamente - Deliciosas almendras con sabor a maíz."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Cotton Candy Birthday Cake",
-                        "en": "Cotton Candy Birthday Cake",
-                        "tr": "Doğum Günü Pastası Aromalı Pamuk Şeker",
-                        "es": "Algodón de Azúcar de Pastel de Cumpleaños"
-                    },
-                    "price": "5.90",
-                    "isSoldOut": true,
-                    "desc": {
-                        "de": "Bald zurück - K-Food Zuckerwatte.",
-                        "en": "Back soon - K-Food cotton candy.",
-                        "tr": "Yakında stokta - K-Food pamuk şeker.",
-                        "es": "Próximamente - Algodón de azúcar K-Food."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Honey Butter Almond",
-                        "en": "Honey Butter Almond",
-                        "tr": "Ballı Tereyağlı Badem",
-                        "es": "Almendra de Mantequilla con Miel"
-                    },
-                    "price": "2.90",
-                    "desc": {
-                        "de": "Süße Mandeln mit Honig-Butter-Geschmack.",
-                        "en": "Sweet almonds with honey butter flavor.",
-                        "tr": "Ballı tereyağlı tatlı badem.",
-                        "es": "Almendras dulces con sabor a mantequilla con miel."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Buldak Ramen Carbonara",
-                        "en": "Buldak Ramen Carbonara",
-                        "tr": "Buldak Ramen Carbonara",
-                        "es": "Buldak Ramen Carbonara"
-                    },
-                    "price": "3.70",
-                    "isSoldOut": true,
-                    "desc": {
-                        "de": "Bald zurück - Scharfe Carbonara-Nudeln.",
-                        "en": "Back soon - Spicy carbonara noodles.",
-                        "tr": "Yakında stokta - Acılı carbonara erişte.",
-                        "es": "Próximamente - Fideos carbonara picantes."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Buldak Ramen Cheese",
-                        "en": "Buldak Ramen Cheese",
-                        "tr": "Buldak Ramen Peynirli",
-                        "es": "Buldak Ramen Queso"
-                    },
-                    "price": "3.70",
-                    "isSoldOut": true,
-                    "desc": {
-                        "de": "Bald zurück - Scharfe Käse-Nudeln.",
-                        "en": "Back soon - Spicy cheese noodles.",
-                        "tr": "Yakında stokta - Acılı peynirli erişte.",
-                        "es": "Próximamente - Fideos de queso picantes."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "drinks_no_alc",
-            "hidden": false,
-            "name": {
-                "de": "Alkoholfreie Getränke",
-                "en": "Non-alcoholic Drinks",
-                "tr": "Alkolsüz İçecekler",
-                "es": "Bebidas sin Alcohol"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Cantabile Pouch Heidelbeere",
-                        "en": "Cantabile Pouch Blueberry",
-                        "tr": "Cantabile Poşet Yaban Mersini",
-                        "es": "Bolsa Cantabile Arándano"
-                    },
-                    "price": "3.90",
-                    "desc": {
-                        "de": "Koreanisches Erfrischungsgetränk im Beutel.",
-                        "en": "Korean soft drink in a pouch.",
-                        "tr": "Poşette Kore meşrubatı.",
-                        "es": "Refresco coreano en bolsa."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Vöslauer still",
-                        "en": "Vöslauer still",
-                        "tr": "Vöslauer durgun",
-                        "es": "Vöslauer sin gas"
-                    },
-                    "price": "3.50",
-                    "desc": {
-                        "de": "Mineralwasser ohne Kohlensäure.",
-                        "en": "Still mineral water.",
-                        "tr": "Durgun maden suyu.",
-                        "es": "Agua mineral sin gas."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Coca-Cola",
-                        "en": "Coca-Cola",
-                        "tr": "Coca-Cola",
-                        "es": "Coca-Cola"
-                    },
-                    "price": "3.50",
-                    "desc": {
-                        "de": "Klassisches Erfrischungsgetränk.",
-                        "en": "Classic soft drink.",
-                        "tr": "Klasik meşrubat.",
-                        "es": "Refresco clásico."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "SFC Sparkling Pflaume",
-                        "en": "SFC Sparkling Plum",
-                        "tr": "SFC Erik Aromalı Gazlı İçecek",
-                        "es": "SFC Ciruela Espumoso"
-                    },
-                    "price": "4.50",
-                    "desc": {
-                        "de": "Bio Fruchtgetränk mit Kohlensäure.",
-                        "en": "Organic sparkling fruit drink.",
-                        "tr": "Asitli organik meyve içeceği.",
-                        "es": "Bebida de fruta espumosa ecológica."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "SFC Sparkling Melone",
-                        "en": "SFC Sparkling Melon",
-                        "tr": "SFC Kavunlu Gazlı İçecek",
-                        "es": "SFC Melón Espumoso"
-                    },
-                    "price": "4.50",
-                    "desc": {
-                        "de": "Bio Fruchtgetränk mit Kohlensäure.",
-                        "en": "Organic sparkling fruit drink.",
-                        "tr": "Asitli organik meyve içeceği.",
-                        "es": "Bebida de fruta espumosa ecológica."
-                    }
-                }
-            ]
-        },
-        {
-            "id": "drinks_alc",
-            "hidden": false,
-            "name": {
-                "de": "Alkoholische Getränke",
-                "en": "Alcoholic Drinks",
-                "tr": "Alkollü İçecekler",
-                "es": "Bebidas Alcohólicas"
-            },
-            "items": [
-                {
-                    "name": {
-                        "de": "Cass Bier (Korea)",
-                        "en": "Cass Beer (Korea)",
-                        "tr": "Cass Birası (Kore)",
-                        "es": "Cerveza Cass (Corea)"
-                    },
-                    "price": "4.90",
-                    "desc": {
-                        "de": "Koreanisches Lager Bier.",
-                        "en": "Korean lager beer.",
-                        "tr": "Kore usulü lager bira.",
-                        "es": "Cerveza lager coreana."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Soju Chamisul Fresh",
-                        "en": "Soju Chamisul Fresh",
-                        "tr": "Soju Chamisul Fresh",
-                        "es": "Soju Chamisul Fresh"
-                    },
-                    "price": "7.20",
-                    "desc": {
-                        "de": "Traditioneller Reisschnaps.",
-                        "en": "Traditional rice spirit.",
-                        "tr": "Geleneksel pirinç içkisi.",
-                        "es": "Licor de arroz tradicional."
-                    }
-                },
-                {
-                    "name": {
-                        "de": "Soju Strawberry",
-                        "en": "Soju Strawberry",
-                        "tr": "Çilekli Soju",
-                        "es": "Soju de Fresa"
-                    },
-                    "price": "7.20",
-                    "desc": {
-                        "de": "Soju mit Erdbeergeschmack.",
-                        "en": "Strawberry flavored Soju.",
-                        "tr": "Çilek aromalı Soju.",
-                        "es": "Soju sabor fresa."
-                    }
-                }
-            ]
+          "name": {
+            "de": "Süßkartoffel Pommes",
+            "en": "Sweet Potato Fries",
+            "tr": "Tatlı Patates Kızartması",
+            "es": "Batatas Fritas"
+          },
+          "price": "6.50",
+          "desc": {
+            "de": "Knusprige Süßkartoffelpommes.",
+            "en": "Crispy sweet potato fries.",
+            "tr": "Çıtır tatlı patates kızartması.",
+            "es": "Batatas fritas crujientes."
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": "salads",
+      "hidden": true,
+      "name": {
+        "de": "Salate",
+        "en": "Salads",
+        "tr": "Salatalar",
+        "es": "Ensaladas"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Avocadosalat",
+            "en": "Avocado Salad",
+            "tr": "Avokado Salatası",
+            "es": "Ensalada de Aguacate"
+          },
+          "price": "11.90",
+          "desc": {
+            "de": "Frischer Salat mit cremiger Avocado.",
+            "en": "Fresh salad with creamy avocado.",
+            "tr": "Kremamsı avokadolu taze salata.",
+            "es": "Ensalada fresca con aguacate cremoso."
+          }
+        },
+        {
+          "name": {
+            "de": "Kimchi Chicken Salat",
+            "en": "Kimchi Chicken Salad",
+            "tr": "Kimchi Tavuk Salatası",
+            "es": "Ensalada de Pollo Kimchi"
+          },
+          "price": "14.90",
+          "desc": {
+            "de": "Salat mit knusprigem Chicken und scharfem Kimchi.",
+            "en": "Salad with crispy chicken and spicy kimchi.",
+            "tr": "Çıtır tavuk ve acı kimchi ile salata.",
+            "es": "Ensalada con pollo crujiente y kimchi picante."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "hidden": false,
+      "name": {
+        "de": "Chicken Wings & Boneless",
+        "en": "Chicken Wings & Boneless",
+        "tr": "Tavuk Kanatları ve Kemiksiz Tavuklar",
+        "es": "Alitas de Pollo y Deshuesado"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Yang Nyem Style Chicken Wings",
+            "en": "Yang Nyem Style Chicken Wings",
+            "tr": "Yang Nyem Usulü Tavuk Kanatları",
+            "es": "Alitas de Pollo Estilo Yang Nyem"
+          },
+          "price": "16.90",
+          "desc": {
+            "de": "Hähnchenflügel in süß-pikanter Sauce.",
+            "en": "Chicken wings in sweet and spicy sauce.",
+            "tr": "Tatlı ve acı soslu tavuk kanatları.",
+            "es": "Alitas de pollo en salsa agridulce."
+          }
+        },
+        {
+          "name": {
+            "de": "Yang Nyem Style Boneless Chicken",
+            "en": "Yang Nyem Style Boneless Chicken",
+            "tr": "Yang Nyem Usulü Kemiksiz Tavuk",
+            "es": "Pollo Deshuesado Estilo Yang Nyem"
+          },
+          "price": "17.90",
+          "desc": {
+            "de": "Zarte Hähnchenstücke ohne Knochen in süß-pikanter Sauce.",
+            "en": "Tender boneless chicken pieces in sweet and spicy sauce.",
+            "tr": "Tatlı ve acı soslu kemiksiz tavuk parçaları.",
+            "es": "Trocitos de pollo deshuesado en salsa agridulce."
+          }
+        },
+        {
+          "name": {
+            "de": "Spicy Yang Nyem Style Chicken Wings",
+            "en": "Spicy Yang Nyem Style Chicken Wings",
+            "tr": "Acılı Yang Nyem Usulü Tavuk Kanatları",
+            "es": "Alitas de Pollo Estilo Yang Nyem Picante"
+          },
+          "price": "16.90",
+          "desc": {
+            "de": "Extra scharfe Hähnchenflügel.",
+            "en": "Extra spicy chicken wings.",
+            "tr": "Ekstra acılı tavuk kanatları.",
+            "es": "Alitas de pollo extra picantes."
+          }
+        },
+        {
+          "name": {
+            "de": "Sweet Cheese Chicken Wings",
+            "en": "Sweet Cheese Chicken Wings",
+            "tr": "Tatlı Peynirli Tavuk Kanatları",
+            "es": "Alitas de Pollo con Queso Dulce"
+          },
+          "price": "18.90",
+          "desc": {
+            "de": "Hähnchenflügel mit süßer Käseglasur.",
+            "en": "Chicken wings with sweet cheese glaze.",
+            "tr": "Tatlı peynir soslu tavuk kanatları.",
+            "es": "Alitas de pollo con glaseado de queso dulce."
+          }
+        },
+        {
+          "name": {
+            "de": "Sweet Cheese Boneless Chicken",
+            "en": "Sweet Cheese Boneless Chicken",
+            "tr": "Tatlı Peynirli Kemiksiz Tavuk",
+            "es": "Pollo Deshuesado con Queso Dulce"
+          },
+          "price": "19.90",
+          "desc": {
+            "de": "Kemiksiz Tavuk mit süßer Käseglasur.",
+            "en": "Boneless Chicken with sweet cheese glaze.",
+            "tr": "Tatlı peynir soslu kemiksiz tavuk.",
+            "es": "Pollo deshuesado con glaseado de queso dulce."
+          }
+        },
+        {
+          "name": {
+            "de": "Soy Garlic Sauce Chicken Wings",
+            "en": "Soy Garlic Sauce Chicken Wings",
+            "tr": "Soya Sarımsak Soslu Tavuk Kanatları",
+            "es": "Alitas de Pollo en Salsa de Soja y Ajo"
+          },
+          "price": "16.90",
+          "desc": {
+            "de": "Herzhafte Flügel in Soya-Knoblauch Sauce.",
+            "en": "Savory wings in soy-garlic sauce.",
+            "tr": "Soya ve sarımsak soslu lezzetli kanatlar.",
+            "es": "Alitas de pollo en salsa de soja y ajo."
+          }
+        },
+        {
+          "name": {
+            "de": "Soy Garlic Sauce Boneless Chicken",
+            "en": "Soy Garlic Sauce Boneless Chicken",
+            "tr": "Soya Sarımsak Soslu Kemiksiz Tavuk",
+            "es": "Pollo Deshuesado en Salsa de Soja y Ajo"
+          },
+          "price": "17.90",
+          "desc": {
+            "de": "Kemiksiz Hähnchen in herzhafter Soya-Knoblauch Sauce.",
+            "en": "Boneless chicken in savory soy-garlic sauce.",
+            "tr": "Soya ve sarımsak soslu kemiksiz tavuk.",
+            "es": "Pollo deshuesado en salsa de soja y ajo."
+          }
+        },
+        {
+          "name": {
+            "de": "Mixed Box 6Stk",
+            "en": "Mixed Box 6pcs",
+            "tr": "Karışık Kutu 6 Adet",
+            "es": "Caja Mixta 6 uds"
+          },
+          "price": "19.90",
+          "desc": {
+            "de": "Eine kleine Auswahl unserer besten Sorten.",
+            "en": "A small selection of our best varieties.",
+            "tr": "En iyi çeşitlerimizden küçük bir seçki.",
+            "es": "Una pequeña selección de nuestras mejores variedades."
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "hidden": false,
+      "name": {
+        "de": "Burger",
+        "en": "Burgers",
+        "tr": "Burgerler",
+        "es": "Hamburguesas"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Hamburger 150g",
+            "en": "Hamburger 150g",
+            "tr": "Hamburger 150g",
+            "es": "Hamburguesa 150g"
+          },
+          "price": "11.90",
+          "desc": {
+            "de": "Klassischer Hamburger mit 150g Rindfleisch.",
+            "en": "Classic hamburger with 150g beef.",
+            "tr": "150g dana etli klasik hamburger.",
+            "es": "Hamburguesa clásica con 150g de ternera."
+          }
+        },
+        {
+          "name": {
+            "de": "Cheeseburger 150g",
+            "en": "Cheeseburger 150g",
+            "tr": "Cheeseburger 150g",
+            "es": "Hamburguesa con Queso 150g"
+          },
+          "price": "12.50",
+          "desc": {
+            "de": "Hamburger mit geschmolzenem Cheddar.",
+            "en": "Hamburger with melted cheddar.",
+            "tr": "Eritilmiş cheddar peynirli hamburger.",
+            "es": "Hamburguesa con cheddar fundido."
+          }
+        },
+        {
+          "name": {
+            "de": "Tofu Burger",
+            "en": "Tofu Burger",
+            "tr": "Tofu Burger",
+            "es": "Hamburguesa de Tofu"
+          },
+          "price": "12.50",
+          "desc": {
+            "de": "Tofu Patty, Eisbergsalat, Avocado, Tomaten, hausgemachte Cashew-Nuss Sauce.",
+            "en": "Tofu patty, iceberg lettuce, avocado, tomatoes, homemade cashew sauce.",
+            "tr": "Tofu köftesi, marul, avokado, domates, ev yapımı kaju sosu.",
+            "es": "Carne de tofu, lechuga, aguacate, tomate, salsa de anacardos casera."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bowls",
+      "hidden": false,
+      "name": {
+        "de": "Bowls",
+        "en": "Bowls",
+        "tr": "Kaseler",
+        "es": "Bowls"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Tofubowl vegan",
+            "en": "Tofu Bowl vegan",
+            "tr": "Tofu Kasesi vegan",
+            "es": "Bowl de Tofu vegano"
+          },
+          "price": "14.90",
+          "desc": {
+            "de": "Frische Bowl mit mariniertem Tofu und Gemüse.",
+            "en": "Fresh bowl with marinated tofu and vegetables.",
+            "tr": "Marine edilmiş tofu ve sebzeli taze kase.",
+            "es": "Bowl fresco con tofu marinado y verduras."
+          }
+        },
+        {
+          "name": {
+            "de": "Lachs Avocado Bowl",
+            "en": "Salmon Avocado Bowl",
+            "tr": "Somonlu Avokadolu Kase",
+            "es": "Bowl de Salmón y Aguacate"
+          },
+          "price": "18.90",
+          "desc": {
+            "de": "Frischer Lachs, Avocado und Sushireis.",
+            "en": "Fresh salmon, avocado and sushi rice.",
+            "tr": "Taze somon, avokado ve sushi pirinci.",
+            "es": "Salmón fresco, aguacate y arroz para sushi."
+          }
+        },
+        {
+          "name": {
+            "de": "Chicken Avocado Bowl",
+            "en": "Chicken Avocado Bowl",
+            "tr": "Tavuklu Avokadolu Kase",
+            "es": "Bowl de Pollo y Aguacate"
+          },
+          "price": "17.90",
+          "desc": {
+            "de": "Knuspriges Chicken mit Avocado und Gemüse.",
+            "en": "Crispy chicken with avocado and vegetables.",
+            "tr": "Çıtır tavuk, avokado ve sebzeli kase.",
+            "es": "Pollo crujiente con aguacate y verduras."
+          }
+        },
+        {
+          "name": {
+            "de": "Beef Bulgogi Bowl",
+            "en": "Beef Bulgogi Bowl",
+            "tr": "Dana Bulgogi Kasesi",
+            "es": "Bowl de Ternera Bulgogi"
+          },
+          "price": "20.90",
+          "desc": {
+            "de": "Traditionelles koreanisches Bulgogi-Rindfleisch.",
+            "en": "Traditional Korean Bulgogi beef.",
+            "tr": "Geleneksel Kore usulü Bulgogi dana eti.",
+            "es": "Ternera Bulgogi coreana tradicional."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tteokbokki",
+      "hidden": false,
+      "name": {
+        "de": "Tteokbokki",
+        "en": "Tteokbokki",
+        "tr": "Tteokbokki",
+        "es": "Tteokbokki"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Sweet Cheese Tteokbokki",
+            "en": "Sweet Cheese Tteokbokki",
+            "tr": "Tatlı Peynirli Tteokbokki",
+            "es": "Tteokbokki con Queso Dulce"
+          },
+          "price": "10.90",
+          "desc": {
+            "de": "Reiskuchen in süßer Käsesauce.",
+            "en": "Rice cakes in sweet cheese sauce.",
+            "tr": "Tatlı peynir soslu pirinç keki.",
+            "es": "Pasteles de arroz en salsa de queso dulce."
+          }
+        },
+        {
+          "name": {
+            "de": "Yang Nyem Style Tteokbokki",
+            "en": "Yang Nyem Style Tteokbokki",
+            "tr": "Yang Nyem Usulü Tteokbokki",
+            "es": "Tteokbokki Estilo Yang Nyem"
+          },
+          "price": "10.90",
+          "desc": {
+            "de": "Süß-pikante Reiskuchen nach koreanischer Art.",
+            "en": "Sweet and spicy Korean style rice cakes.",
+            "tr": "Kore usulü tatlı ve acı pirinç keki.",
+            "es": "Pasteles de arroz coreanos agridulces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fries",
+      "hidden": false,
+      "name": {
+        "de": "Fries",
+        "en": "Fries",
+        "tr": "Patatesler",
+        "es": "Patatas"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Original Fries",
+            "en": "Original Fries",
+            "tr": "Orijinal Patates",
+            "es": "Patatas Originales"
+          },
+          "price": "6.50",
+          "desc": {
+            "de": "Knusprig goldene Pommes.",
+            "en": "Crispy golden fries.",
+            "tr": "Çıtır altın sarısı patates.",
+            "es": "Patatas doradas crujientes."
+          }
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel Pommes",
+            "en": "Sweet Potato Fries",
+            "tr": "Tatlı Patates Kızartması",
+            "es": "Batatas Fritas"
+          },
+          "price": "6.50",
+          "desc": {
+            "de": "Knusprige Süßkartoffelpommes.",
+            "en": "Crispy sweet potato fries.",
+            "tr": "Çıtır tatlı patates kızartması.",
+            "es": "Batatas fritas crujientes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "hidden": false,
+      "name": {
+        "de": "Snacks",
+        "en": "Snacks",
+        "tr": "Atıştırmalıklar",
+        "es": "Snacks"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Original Yegam Kartoffelchips",
+            "en": "Original Yegam Potato Chips",
+            "tr": "Orijinal Yegam Patates Cipsi",
+            "es": "Patatas Chips Originales Yegam"
+          },
+          "price": "3.90",
+          "desc": {
+            "de": "Authentische koreanische Kartoffelchips.",
+            "en": "Authentic Korean potato chips.",
+            "tr": "Orijinal Kore patates cipsi.",
+            "es": "Patatas chips coreanas auténticas."
+          }
+        },
+        {
+          "name": {
+            "de": "Baked Corn Almond",
+            "en": "Baked Corn Almond",
+            "tr": "Fırınlanmış Mısırlı Badem",
+            "es": "Almendra de Maíz Horneada"
+          },
+          "price": "7.90",
+          "isSoldOut": true,
+          "desc": {
+            "de": "Bald zurück - Leckere Mandeln mit Maisgeschmack.",
+            "en": "Back soon - Delicious almonds with corn flavor.",
+            "tr": "Yakında stokta - Mısır aromalı lezzetli bademler.",
+            "es": "Próximamente - Deliciosas almendras con sabor a maíz."
+          }
+        },
+        {
+          "name": {
+            "de": "Cotton Candy Birthday Cake",
+            "en": "Cotton Candy Birthday Cake",
+            "tr": "Doğum Günü Pastası Aromalı Pamuk Şeker",
+            "es": "Algodón de Azúcar de Pastel de Cumpleaños"
+          },
+          "price": "5.90",
+          "isSoldOut": true,
+          "desc": {
+            "de": "Bald zurück - K-Food Zuckerwatte.",
+            "en": "Back soon - K-Food cotton candy.",
+            "tr": "Yakında stokta - K-Food pamuk şeker.",
+            "es": "Próximamente - Algodón de azúcar K-Food."
+          }
+        },
+        {
+          "name": {
+            "de": "Honey Butter Almond",
+            "en": "Honey Butter Almond",
+            "tr": "Ballı Tereyağlı Badem",
+            "es": "Almendra de Mantequilla con Miel"
+          },
+          "price": "2.90",
+          "desc": {
+            "de": "Süße Mandeln mit Honig-Butter-Geschmack.",
+            "en": "Sweet almonds with honey butter flavor.",
+            "tr": "Ballı tereyağlı tatlı badem.",
+            "es": "Almendras dulces con sabor a mantequilla con miel."
+          }
+        },
+        {
+          "name": {
+            "de": "Buldak Ramen Carbonara",
+            "en": "Buldak Ramen Carbonara",
+            "tr": "Buldak Ramen Carbonara",
+            "es": "Buldak Ramen Carbonara"
+          },
+          "price": "3.70",
+          "isSoldOut": true,
+          "desc": {
+            "de": "Bald zurück - Scharfe Carbonara-Nudeln.",
+            "en": "Back soon - Spicy carbonara noodles.",
+            "tr": "Yakında stokta - Acılı carbonara erişte.",
+            "es": "Próximamente - Fideos carbonara picantes."
+          }
+        },
+        {
+          "name": {
+            "de": "Buldak Ramen Cheese",
+            "en": "Buldak Ramen Cheese",
+            "tr": "Buldak Ramen Peynirli",
+            "es": "Buldak Ramen Queso"
+          },
+          "price": "3.70",
+          "isSoldOut": true,
+          "desc": {
+            "de": "Bald zurück - Scharfe Käse-Nudeln.",
+            "en": "Back soon - Spicy cheese noodles.",
+            "tr": "Yakında stokta - Acılı peynirli erişte.",
+            "es": "Próximamente - Fideos de queso picantes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "drinks_no_alc",
+      "hidden": false,
+      "name": {
+        "de": "Alkoholfreie Getränke",
+        "en": "Non-alcoholic Drinks",
+        "tr": "Alkolsüz İçecekler",
+        "es": "Bebidas sin Alcohol"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Cantabile Pouch Heidelbeere",
+            "en": "Cantabile Pouch Blueberry",
+            "tr": "Cantabile Poşet Yaban Mersini",
+            "es": "Bolsa Cantabile Arándano"
+          },
+          "price": "3.90",
+          "desc": {
+            "de": "Koreanisches Erfrischungsgetränk im Beutel.",
+            "en": "Korean soft drink in a pouch.",
+            "tr": "Poşette Kore meşrubatı.",
+            "es": "Refresco coreano en bolsa."
+          }
+        },
+        {
+          "name": {
+            "de": "Vöslauer still",
+            "en": "Vöslauer still",
+            "tr": "Vöslauer durgun",
+            "es": "Vöslauer sin gas"
+          },
+          "price": "3.50",
+          "desc": {
+            "de": "Mineralwasser ohne Kohlensäure.",
+            "en": "Still mineral water.",
+            "tr": "Durgun maden suyu.",
+            "es": "Agua mineral sin gas."
+          }
+        },
+        {
+          "name": {
+            "de": "Coca-Cola",
+            "en": "Coca-Cola",
+            "tr": "Coca-Cola",
+            "es": "Coca-Cola"
+          },
+          "price": "3.50",
+          "desc": {
+            "de": "Klassisches Erfrischungsgetränk.",
+            "en": "Classic soft drink.",
+            "tr": "Klasik meşrubat.",
+            "es": "Refresco clásico."
+          }
+        },
+        {
+          "name": {
+            "de": "SFC Sparkling Pflaume",
+            "en": "SFC Sparkling Plum",
+            "tr": "SFC Erik Aromalı Gazlı İçecek",
+            "es": "SFC Ciruela Espumoso"
+          },
+          "price": "4.50",
+          "desc": {
+            "de": "Bio Fruchtgetränk mit Kohlensäure.",
+            "en": "Organic sparkling fruit drink.",
+            "tr": "Asitli organik meyve içeceği.",
+            "es": "Bebida de fruta espumosa ecológica."
+          }
+        },
+        {
+          "name": {
+            "de": "SFC Sparkling Melone",
+            "en": "SFC Sparkling Melon",
+            "tr": "SFC Kavunlu Gazlı İçecek",
+            "es": "SFC Melón Espumoso"
+          },
+          "price": "4.50",
+          "desc": {
+            "de": "Bio Fruchtgetränk mit Kohlensäure.",
+            "en": "Organic sparkling fruit drink.",
+            "tr": "Asitli organik meyve içeceği.",
+            "es": "Bebida de fruta espumosa ecológica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "drinks_alc",
+      "hidden": false,
+      "name": {
+        "de": "Alkoholische Getränke",
+        "en": "Alcoholic Drinks",
+        "tr": "Alkollü İçecekler",
+        "es": "Bebidas Alcohólicas"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Cass Bier (Korea)",
+            "en": "Cass Beer (Korea)",
+            "tr": "Cass Birası (Kore)",
+            "es": "Cerveza Cass (Corea)"
+          },
+          "price": "4.90",
+          "desc": {
+            "de": "Koreanisches Lager Bier.",
+            "en": "Korean lager beer.",
+            "tr": "Kore usulü lager bira.",
+            "es": "Cerveza lager coreana."
+          }
+        },
+        {
+          "name": {
+            "de": "Soju Chamisul Fresh",
+            "en": "Soju Chamisul Fresh",
+            "tr": "Soju Chamisul Fresh",
+            "es": "Soju Chamisul Fresh"
+          },
+          "price": "7.20",
+          "desc": {
+            "de": "Traditioneller Reisschnaps.",
+            "en": "Traditional rice spirit.",
+            "tr": "Geleneksel pirinç içkisi.",
+            "es": "Licor de arroz tradicional."
+          }
+        },
+        {
+          "name": {
+            "de": "Soju Strawberry",
+            "en": "Soju Strawberry",
+            "tr": "Çilekli Soju",
+            "es": "Soju de Fresa"
+          },
+          "price": "7.20",
+          "desc": {
+            "de": "Soju mit Erdbeergeschmack.",
+            "en": "Strawberry flavored Soju.",
+            "tr": "Çilek aromalı Soju.",
+            "es": "Soju sabor fresa."
+          }
+        }
+      ]
+    }
+  ]
 }
