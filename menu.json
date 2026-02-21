@@ -59,7 +59,7 @@
     },
     {
       "id": "salads",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Salate",
         "en": "Salads",
@@ -101,7 +101,7 @@
     },
     {
       "id": "chicken",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Chicken Wings & Boneless",
         "en": "Chicken Wings & Boneless",
@@ -233,7 +233,7 @@
     },
     {
       "id": "burgers",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Burger",
         "en": "Burgers",
@@ -290,7 +290,7 @@
     },
     {
       "id": "bowls",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Bowls",
         "en": "Bowls",
@@ -362,7 +362,7 @@
     },
     {
       "id": "tteokbokki",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Tteokbokki",
         "en": "Tteokbokki",
@@ -404,7 +404,7 @@
     },
     {
       "id": "fries",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Fries",
         "en": "Fries",
@@ -446,7 +446,7 @@
     },
     {
       "id": "snacks",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Snacks",
         "en": "Snacks",
@@ -552,7 +552,7 @@
     },
     {
       "id": "drinks_no_alc",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Alkoholfreie Getränke",
         "en": "Non-alcoholic Drinks",
@@ -639,7 +639,7 @@
     },
     {
       "id": "drinks_alc",
-      "hidden": true,
+      "hidden": false,
       "name": {
         "de": "Alkoholische Getränke",
         "en": "Alcoholic Drinks",
