@@ -59,7 +59,7 @@
     },
     {
       "id": "salads",
-      "hidden": false,
+      "hidden": true,
       "name": {
         "de": "Salate",
         "en": "Salads",
