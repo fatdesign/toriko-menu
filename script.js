@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (theme) {
             root.style.setProperty('--bg-primary', theme.bgPrimary);
             root.style.setProperty('--bg-header', theme.bgHeader);
+            root.style.setProperty('--bg-card', theme.bgCard);
             root.style.setProperty('--accent-pink', theme.accentPink);
             root.style.setProperty('--accent-teal', theme.accentTeal);
             root.style.setProperty('--text-primary', theme.textPrimary);

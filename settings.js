@@ -16,7 +16,8 @@ const SETTINGS = {
     // 2. DESIGN TOKENS (Colors & Fonts)
     theme: {
         bgPrimary: "#1a1a1a",    // Dark Grey/Black
-        bgHeader: "#262626",     // Slightly lighter dark
+        bgHeader: "#18171b",     // Deep Black/Charcoal
+        bgCard: "#18171b",       // Deep Black/Charcoal
         accentPink: "#e74c3c",   // Vibrant Red (Asian vibe)
         accentTeal: "#f39c12",   // Orange/Gold accent
         textPrimary: "#ffffff",

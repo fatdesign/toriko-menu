@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-    /* Color Palette - Toriko Mixed Theme */
-    --bg-primary: #fcf3dc;
-    /* Cream Page Background */
+    /* Color Palette - Toriko Dark Theme */
+    --bg-primary: #1a1a1a;
+    /* Dark Grey/Black */
     --bg-header: #18171b;
-    /* Dark Header */
+    /* Deep Black/Charcoal */
     --bg-card: #18171b;
-    /* Dark Item Cards */
     --accent-pink: #e74c3c;
     /* Vibrant Red */
     --accent-teal: #f39c12;
     /* Orange/Gold */
-    --text-primary: #18171b;
-    /* Dark text for cream bg */
-    --text-on-dark: #ffffff;
-    /* Light text for dark cards */
-    --text-secondary: #555555;
-    --glass-bg: rgba(24, 23, 27, 0.95);
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --glass-bg: rgba(38, 38, 38, 0.9);
     /* Dark glass */
-    --border-color: rgba(0, 0, 0, 0.1);
+    --border-color: rgba(255, 255, 255, 0.1);
 
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
@@ -180,7 +176,7 @@ ul {
 
 .lang-btn.active {
     background: var(--accent-teal);
-    color: var(--text-on-dark);
+    color: #fff;
 }
 
 .header-right-desktop {
@@ -326,7 +322,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(252, 243, 220, 0) 0%, rgba(252, 243, 220, 1) 100%);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.4) 0%, rgba(26, 26, 26, 1) 100%);
 }
 
 .hero-content {
@@ -435,7 +431,7 @@ ul {
     font-family: var(--font-heading);
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--text-on-dark);
+    color: var(--text-primary);
 }
 
 .item-price {
@@ -446,7 +442,7 @@ ul {
 }
 
 .item-desc {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-secondary);
     font-size: 0.95rem;
     line-height: 1.4;
 }
